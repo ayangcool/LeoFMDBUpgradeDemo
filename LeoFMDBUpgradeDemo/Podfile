@@ -1,0 +1,6 @@
+source "https://github.com/CocoaPods/Specs.git"
+platform :ios, '7.0'
+target 'LeoFMDBUpgradeDemo' do
+pod 'FMDB', '~> 2.6.2'
+pod 'FMDBMigrationManager', '~> 1.4.1'
+end
